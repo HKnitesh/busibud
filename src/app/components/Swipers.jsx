@@ -5,16 +5,16 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 export default function Swipers() {
 
-    let Box = document.getElementById("box");
+    // let Box = document.getElementById("box");
 
     const btnLeft = () =>{
-        let width = Box.clientHeight;
-        Box.scrollLeft = box.scrollLeft - width; 
+        // let width = Box.clientHeight;
+        // Box.scrollLeft = box.scrollLeft - width; 
         
     }
     const btnRight = () =>{
-        let width = Box.clientWidth;
-        Box.scrollLeft = box.scrollLeft + width;
+        // let width = Box.clientWidth;
+        // Box.scrollLeft = box.scrollLeft + width;
 
     }
     return (
