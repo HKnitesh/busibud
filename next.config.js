@@ -4,7 +4,7 @@ const nextConfig = {
     output:'export',
     images:{
         unoptimized:true,
-        domains: ["res.cloudinary.com"],
+        domains: ["res.cloudinary.com","www.w3.org"],
     },
 }
 
