@@ -13,11 +13,10 @@ export default function Card() {
                 <div className="flex flex-col p-6 bg-white text-black rounded-2xl  gap-2.5 justify-start items-start md:w-[30%]">
                     <Image
 
-                        src="/teacher_girl.svg"
+                        src="https://res.cloudinary.com/drw8eqw3i/image/upload/v1689680887/Teacher_kpe1cz.png"
                         alt="teacher"
-                        className="flex md:w-1/2 mt-1"
-                        width={100}
-                        height={24}
+                        width={250}
+                        height={30}
                         priority
                     />
                     <h4 className=" font-semibold text-lg mt-2">Lorem ipsum dolor sit.</h4>
@@ -26,11 +25,10 @@ export default function Card() {
                 <div className="flex flex-col p-6 bg-white text-black rounded-2xl  gap-2.5 justify-start items-start md:w-[30%]">
                     <Image
 
-                        src="/developer.svg"
+                        src="https://res.cloudinary.com/drw8eqw3i/image/upload/v1689680978/Developer_pg6hds.png"
                         alt="developer"
-                        className="flex md:w-1/2 mt-1"
-                        width={100}
-                        height={24}
+                        width={250}
+                        height={30}
                         priority
                     />
                     <h4 className=" font-semibold text-lg mt-2">Lorem ipsum dolor sit.</h4>
@@ -39,11 +37,10 @@ export default function Card() {
                 <div className="flex flex-col p-6 bg-white text-black rounded-2xl  gap-2.5 justify-start items-start md:w-[30%]">
                     <Image
 
-                        src="/learning.svg"
+                        src="https://res.cloudinary.com/drw8eqw3i/image/upload/v1689681214/learning_xwltoj.png"
                         alt="learner"
-                        className="flex md:w-1/2 mt-1"
-                        width={100}
-                        height={24}
+                        width={250}
+                        height={30}
                         priority
                     />
                     <h4 className=" font-semibold text-lg mt-2">Lorem ipsum dolor sit.</h4>

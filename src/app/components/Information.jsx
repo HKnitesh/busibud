@@ -10,8 +10,8 @@ export default function Information() {
             </div>
             <Image
                 
-                src="/team_chat.svg"
-                alt="Vercel Logo"
+                src="https://res.cloudinary.com/drw8eqw3i/image/upload/v1689680723/Team_chat_hkhi7c.png"
+                alt="team chat"
                 className="flex md:w-1/2 mt-1"
                 width={500}
                 height={24}
