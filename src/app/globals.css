@@ -1,27 +1,31 @@
 @tailwind base;
 @tailwind components;
+
+.nav_bar{
+  @apply hover:text-xl hover:text-sky-600 hover:border hover:bg-slate-200 rounded-md px-3 py-1;
+}
+.pricing_btn{
+  @apply bg-[#1492E6] hover:bg-[#39bbdffa] shadow-4p py-3 px-10 rounded-3xl text-white text-xl font-normal;
+}
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+::-webkit-scrollbar-track {
+  background: #a3a2a2;
+  border-radius: 8px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 8px;
 }
